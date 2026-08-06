@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GoInvestment | Luxury Real Estate</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Georgia", serif;
+}
+
+body{
+    background:#0b0b0b;
+    color:white;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 8%;
+    background:#000;
+}
+
+.logo{
+    font-size:30px;
+    color:#d4af37;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+}
+
+nav a:hover{
+    color:#d4af37;
+}
+
+.hero{
+    height:90vh;
+    background:
+    linear-gradient(
+    rgba(0,0,0,.6),
+    rgba(0,0,0,.8)),
+    url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c")
+    center/cover;
+
+    display:flex;
+    align-items:center;
+    padding:8%;
+}
+
+.hero h1{
+    font-size:60px;
+    max-width:700px;
+}
+
+.hero p{
+    margin:20px 0;
+    font-size:20px;
+}
+
+.btn{
+    background:#d4af37;
+    color:black;
+    padding:15px 35px;
+    border-radius:5px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+section{
+    padding:70px 8%;
+}
+
+.title{
+    text-align:center;
+    font-size:40px;
+    color:#d4af37;
+    margin-bottom:40px;
+}
+
+
+.properties{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:#151515;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card div{
+    padding:20px;
+}
+
+.card h3{
+    color:#d4af37;
+}
+
+.card button{
+    margin-top:15px;
+    padding:10px 20px;
+    background:#d4af37;
+    border:none;
+    cursor:pointer;
+}
+
+.features{
+    display:flex;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.feature{
+    background:#151515;
+    padding:25px;
+    flex:1;
+    min-width:250px;
+    border-left:3px solid #d4af37;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    background:#000;
+    color:#aaa;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+GoInvestment
+</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Properties</a>
+<a href="#">Investments</a>
+<a href="#">About</a>
+<a href="#">Login</a>
+</nav>
+
+</header>
+
+
+<div class="hero">
+
+<div>
+<h1>
+Invest In Premium Real Estate Worldwide
+</h1>
+
+<p>
+Discover luxury property opportunities with GoInvestment.
+</p>
+
+<a class="btn" href="#">
+Start Investing
+</a>
+
+</div>
+
+</div>
+
+
+<section>
+
+<h2 class="title">
+Featured Properties
+</h2>
+
+
+<div class="properties">
+
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d">
+
+<div>
+<h3>
+Luxury Residence
+</h3>
+
+<p>
+Toronto, Canada
+</p>
+
+<button>
+View Details
+</button>
+
+</div>
+
+</div>
+
+
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c">
+
+<div>
+
+<h3>
+Modern Estate
+</h3>
+
+<p>
+Dubai, UAE
+</p>
+
+<button>
+View Details
+</button>
+
+</div>
+
+</div>
+
+
+
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde">
+
+<div>
+
+<h3>
+Commercial Property
+</h3>
+
+<p>
+London, UK
+</p>
+
+<button>
+View Details
+</button>
+
+</div>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<section>
+
+<h2 class="title">
+Why Choose GoInvestment
+</h2>
+
+
+<div class="features">
+
+<div class="feature">
+<h3>Global Opportunities</h3>
+<p>Access premium real estate projects worldwide.</p>
+</div>
+
+<div class="feature">
+<h3>Secure Platform</h3>
+<p>Professional tools for tracking investments.</p>
+</div>
+
+<div class="feature">
+<h3>Transparent Reports</h3>
+<p>Monitor your portfolio anytime.</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<footer>
+
+© 2026 GoInvestment. All Rights Reserved.
+
+</footer>
+
+
+<script>
+
+document.querySelector(".btn")
+.addEventListener("click",function(){
+
+alert("Welcome to GoInvestment");
+
+});
+
+</script>
+
+
+</body>
+  </html>
